@@ -33,7 +33,7 @@ int main()
   FILE *file;
 
   //Criando ou substituindo o arquivo e cadastrando um user
-  file = = fopen("./Aula79.txt", "wb");
+  file = fopen("./Aula79.txt", "wb");
 
   if (file == NULL)
   {
