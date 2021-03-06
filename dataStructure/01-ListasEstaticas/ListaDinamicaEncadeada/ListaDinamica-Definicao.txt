@@ -1,0 +1,13 @@
+/*
+ * Lista dinamica Encadeada: Tipo de cada de lista onde cada eleemento apotna para o seu sucessor da lista
+ * Usa um ponteiro especial para o primeiro elemento da lista e uma indicação de final da lista 
+ * 
+ * -Cada elemento é tratado como um ponteiro que é alocado dinamicamente, a medida que os dados são inseridos.
+ * Para guardar o primeiro elemento, utilizamos um ponteiro para ponteiro
+ * Um ponteiro para ponteiro pote guardar o endereco de um ponteiro
+ * Assim fica facil para mudar quem esta no inicio da lista mudando o conteudo do ponteiro para ponteiro
+*/
+
+//Compilar
+// gcc -c ListaDinEncad.c -o ListaDinEncad.o
+// gcc main.c ListaDinEncad.o -o compilado && ./compilado
