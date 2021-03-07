@@ -1,0 +1,16 @@
+Lista duplamente encadadeada: Tipo de lista onde cada elemento aponta para o seu sucessor e seu antecessor na lista
+Usa um ponteiro especial para o primeiro elemento da lista e uma indicaçãode final de lista, nos dois sentidos
+
+Cada eelemento é tratado com oum ponteiro e é alocado dinamicamente, a medida que os dados sao inseridos.
+Para guardar o primeiro elemento, utilizamos um ponteiro para ponteiro 
+
+
+Implementação:
+"ListaDinencadDupla.h" 
+  - Os tipos das funções 
+  - O tipo de dado armazenado na lista
+  - o ponteiro "lista"
+
+"listaDinEncadDupla.c" 
+  - O tipo de dados "lista"
+  - Implementar as suas funções
